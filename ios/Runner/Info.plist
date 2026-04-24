@@ -42,6 +42,13 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	
+	<!-- Allow HTTP connections for radio streams -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	
 	<!-- Audio background mode -->
 	<key>UIBackgroundModes</key>
 	<array>
